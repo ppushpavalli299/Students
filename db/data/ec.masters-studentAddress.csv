@@ -1,0 +1,6 @@
+ID,streetName,region,country,postalCode,phoneNumber,EmailAddress,parent_ID
+a1b2c3d4-0001-4000-8000-000000000001,MG Road,Bangalore,India,560001,9876543210,john.doe@gmail.com,09952a0a-d155-40b2-b842-43a6902e2317
+a1b2c3d4-0002-4000-8000-000000000002,Brigade Road,Bangalore,India,560025,9876543211,emma.smith@gmail.com,6e947843-b762-4d70-b6d4-2d5b1a8b8547
+a1b2c3d4-0003-4000-8000-000000000003,Anna Salai,Chennai,India,600002,9876543212,raj.kumar@gmail.com,80804a04-4165-488b-95a3-5baa2debd7f8
+a1b2c3d4-0004-4000-8000-000000000004,Banjara Hills,Hyderabad,India,500034,9876543213,priya.sharma@gmail.com,c15746ea-1d00-4050-915f-c575b8c4036c
+a1b2c3d4-0005-4000-8000-000000000005,Marine Drive,Mumbai,India,400020,9876543214,david.lee@gmail.com,d0098e23-4512-414f-9845-522e61724f0e
