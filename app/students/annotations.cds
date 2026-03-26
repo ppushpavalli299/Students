@@ -6,27 +6,27 @@ annotate service.Student with @(
         Data : [
             {
                 $Type: 'UI.DataField',
-                Label: 'name',
+                Label: 'Name',
                 Value: name,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'firstName',
+                Label: 'FirstName',
                 Value: firstName,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'lastName',
+                Label: 'LastName',
                 Value: lastName,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'gender',
+                Label: 'Gender',
                 Value: gender,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'dateOfBirth',
+                Label: 'DOB',
                 Value: dateOfBirth,
             },
         ],
@@ -40,7 +40,7 @@ annotate service.Student with @(
         },
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'studentAddresses',
+            Label : 'StudentAddresses',
             ID    : 'studentAddresses',
             Target: 'addresses/@UI.LineItem#studentAddresses',
         },
@@ -48,33 +48,33 @@ annotate service.Student with @(
     UI.LineItem                  : [
         {
             $Type: 'UI.DataField',
-            Label: 'name',
+            Label: 'Name',
             Value: name,
         },
         {
             $Type: 'UI.DataField',
-            Label: 'firstName',
+            Label: 'FirstName',
             Value: firstName,
         },
         {
             $Type: 'UI.DataField',
-            Label: 'lastName',
+            Label: 'LastName',
             Value: lastName,
         },
         {
             $Type: 'UI.DataField',
-            Label: 'gender',
+            Label: 'Gender',
             Value: gender,
         },
         {
             $Type: 'UI.DataField',
-            Label: 'dateOfBirth',
+            Label: 'DOB',
             Value: dateOfBirth,
         },
     ],
     UI.SelectionFields           : [
-        name,
-        gender,
+        Name,
+        Gender,
     ],
 );
 
@@ -83,27 +83,27 @@ annotate service.studentAddress with @(
         {
             $Type: 'UI.DataField',
             Value: streetName,
-            Label: 'streetName',
+            Label: 'StreetName',
         },
         {
             $Type: 'UI.DataField',
             Value: region,
-            Label: 'region',
+            Label: 'Region',
         },
         {
             $Type: 'UI.DataField',
             Value: country,
-            Label: 'country',
+            Label: 'Country',
         },
         {
             $Type: 'UI.DataField',
             Value: postalCode,
-            Label: 'postalCode',
+            Label: 'PostalCode',
         },
         {
             $Type: 'UI.DataField',
             Value: phoneNumber,
-            Label: 'phoneNumber',
+            Label: 'PhoneNumber',
         },
         {
             $Type: 'UI.DataField',
@@ -122,13 +122,13 @@ annotate service.studentAddress with @(
 annotate service.studentDetail with @(UI.LineItem #studentDetail: [{
     $Type: 'UI.DataField',
     Value: description,
-    Label: 'description',
+    Label: 'Description',
 }, ], );
 
 annotate service.Student with {
-    name @Common.Label: 'name'
+    name @Common.Label: 'Name'
 };
 
 annotate service.Student with {
-    gender @Common.Label: 'gender'
+    gender @Common.Label: 'Gender'
 };
